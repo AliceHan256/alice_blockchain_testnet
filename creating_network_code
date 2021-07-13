@@ -17,12 +17,12 @@ $ ./puppeth
 +-----------------------------------------------------------+
 
 Please specify a network name to administer (no spaces, hyphens or capital letters please)
-> blockpoa88
+> blockpoa889
 
-Sweet, you can set this via --network=blockpoa88 next time!
+Sweet, you can set this via --network=blockpoa889 next time!
 
-INFO [07-13|21:03:32.325] Administering Ethereum network           name=blockpoa88
-WARN [07-13|21:03:32.326] No previous configurations found         path=C:\Users\Alice\.puppeth\blockpoa88
+INFO [07-13|21:03:32.325] Administering Ethereum network           name=blockpoa889
+WARN [07-13|21:03:32.326] No previous configurations found         path=C:\Users\Alice\.puppeth\blockpoa889
 
 What would you like to do? (default = stats)
  1. Show network stats
@@ -58,7 +58,7 @@ Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei? (advisab
 > yes
 
 Specify your chain/network ID if you want an explicit one (default = random)
-> 8889
+> 889
 INFO [07-13|21:06:29.593] Configured new genesis block
 
 What would you like to do? (default = stats)
@@ -74,12 +74,12 @@ What would you like to do? (default = stats)
 > 2
 
 Which folder to save the genesis specs into? (default = current)
-  Will create blockpoa88.json, blockpoa88-aleth.json, blockpoa88-harmony.json, blockpoa88-parity.json
+  Will create blockpoa889.json, blockpoa889-aleth.json, blockpoa889-harmony.json, blockpoa889-parity.json
 > ahblock2
-INFO [07-13|21:07:20.038] Saved native genesis chain spec          path=ahblock2\blockpoa88.json
+INFO [07-13|21:07:20.038] Saved native genesis chain spec          path=ahblock2\blockpoa889.json
 ERROR[07-13|21:07:20.038] Failed to create Aleth chain spec        err="unsupported consensus engine"
 ERROR[07-13|21:07:20.039] Failed to create Parity chain spec       err="unsupported consensus engine"
-INFO [07-13|21:07:20.040] Saved genesis chain spec                 client=harmony path=ahblock2\blockpoa88-harmony.json
+INFO [07-13|21:07:20.040] Saved genesis chain spec                 client=harmony path=ahblock2\blockpoa889-harmony.json
 
 What would you like to do? (default = stats)
  1. Show network stats
