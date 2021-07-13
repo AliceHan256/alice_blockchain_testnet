@@ -56,7 +56,7 @@
   * By clicking "Keystore file", it pops up another window. 
   * Click "Select Wallet File", you can find your keystore directory inside your node1 directory.
   * Select the file located there, enter the password, apple123, then click "Unlock". 
-  * This will open your account wallet inside MyCrypto. P
+  * This will open your account wallet inside MyCrypto. 
   * Please see video1 in the Screenshot folder.
 
 ### Now, let's do a transaction, transferring 8888ETH from node1 to node2.
