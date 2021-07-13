@@ -1,0 +1,32 @@
+=============== Jul 13, 2021 (AEST) ===============
+21:12:24.911786 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:12:24.911786 db@open opening
+21:12:24.922193 version@stat F·[] S·0B[] Sc·[]
+21:12:24.922193 db@janitor F·2 G·0
+21:12:24.922193 db@open done T·10.4073ms
+21:12:24.922193 db@close closing
+21:12:24.922193 db@close done T·0s
+=============== Jul 13, 2021 (AEST) ===============
+21:30:26.935921 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:30:26.935921 version@stat F·[] S·0B[] Sc·[]
+21:30:26.935921 db@open opening
+21:30:26.935921 journal@recovery F·1
+21:30:26.935921 journal@recovery recovering @1
+21:30:26.935921 memdb@flush created L0@2 N·625 S·50KiB "\x02d\xfc..\x19Ba,v433":"\xfe\x88\xcf..H\xef\xcc,v364"
+21:30:26.945939 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+21:30:26.956376 db@janitor F·3 G·0
+21:30:26.956376 db@open done T·20.4546ms
+21:30:26.960567 db@close closing
+21:30:26.960567 db@close done T·0s
+=============== Jul 13, 2021 (AEST) ===============
+22:15:56.331682 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:15:56.331682 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+22:15:56.331682 db@open opening
+22:15:56.331682 journal@recovery F·1
+22:15:56.331682 journal@recovery recovering @3
+22:15:56.342970 memdb@flush created L0@5 N·1 S·387B "eth..\xeeB\xa1,v627":"eth..\xeeB\xa1,v627"
+22:15:56.344016 version@stat F·[2] S·50KiB[50KiB] Sc·[0.50]
+22:15:56.352862 db@janitor F·4 G·0
+22:15:56.352862 db@open done T·21.1804ms
+22:15:56.357106 db@close closing
+22:15:56.357106 db@close done T·0s

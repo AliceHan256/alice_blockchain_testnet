@@ -1,0 +1,91 @@
+(ethereum)
+Alice@DESKTOP-9326RF3 MINGW64 ~/alice_blockchain_testnet (main)
+$ conda activate ethereum
+(ethereum)
+Alice@DESKTOP-9326RF3 MINGW64 ~/alice_blockchain_testnet (main)
+$ ./puppeth
++-----------------------------------------------------------+
+| Welcome to puppeth, your Ethereum private network manager |
+|                                                           |
+| This tool lets you create a new Ethereum network down to  |
+| the genesis block, bootnodes, miners and ethstats servers |
+| without the hassle that it would normally entail.         |
+|                                                           |
+| Puppeth uses SSH to dial in to remote servers, and builds |
+| its network components out of Docker containers using the |
+| docker-compose toolset.                                   |
++-----------------------------------------------------------+
+
+Please specify a network name to administer (no spaces, hyphens or capital letters please)
+> blockpoa88
+
+Sweet, you can set this via --network=blockpoa88 next time!
+
+INFO [07-13|21:03:32.325] Administering Ethereum network           name=blockpoa88
+WARN [07-13|21:03:32.326] No previous configurations found         path=C:\Users\Alice\.puppeth\blockpoa88
+
+What would you like to do? (default = stats)
+ 1. Show network stats
+ 2. Configure new genesis
+ 3. Track new remote server
+ 4. Deploy network components
+> 2
+
+What would you like to do? (default = create)
+ 1. Create new genesis from scratch
+ 2. Import already existing genesis
+> 1
+
+Which consensus engine to use? (default = clique)
+ 1. Ethash - proof-of-work
+ 2. Clique - proof-of-authority
+> 2
+
+How many seconds should blocks take? (default = 15)
+> 5
+
+Which accounts are allowed to seal? (mandatory at least one)
+> 0xc46ec486E0877B328dD63d0380Bf9d14B52b0530
+> 0x18cB02Bae51fF0136e43Af33DddF66e766D32BF5
+> 0x
+
+Which accounts should be pre-funded? (advisable at least one)
+> 0xc46ec486E0877B328dD63d0380Bf9d14B52b0530
+> 0x18cB02Bae51fF0136e43Af33DddF66e766D32BF5
+> 0x
+
+Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei? (advisable yes)
+> yes
+
+Specify your chain/network ID if you want an explicit one (default = random)
+> 8889
+INFO [07-13|21:06:29.593] Configured new genesis block
+
+What would you like to do? (default = stats)
+ 1. Show network stats
+ 2. Manage existing genesis
+ 3. Track new remote server
+ 4. Deploy network components
+> 2
+
+ 1. Modify existing configurations
+ 2. Export genesis configurations
+ 3. Remove genesis configuration
+> 2
+
+Which folder to save the genesis specs into? (default = current)
+  Will create blockpoa88.json, blockpoa88-aleth.json, blockpoa88-harmony.json, blockpoa88-parity.json
+> ahblock2
+INFO [07-13|21:07:20.038] Saved native genesis chain spec          path=ahblock2\blockpoa88.json
+ERROR[07-13|21:07:20.038] Failed to create Aleth chain spec        err="unsupported consensus engine"
+ERROR[07-13|21:07:20.039] Failed to create Parity chain spec       err="unsupported consensus engine"
+INFO [07-13|21:07:20.040] Saved genesis chain spec                 client=harmony path=ahblock2\blockpoa88-harmony.json
+
+What would you like to do? (default = stats)
+ 1. Show network stats
+ 2. Manage existing genesis
+ 3. Track new remote server
+ 4. Deploy network components
+> (ethereum)
+Alice@DESKTOP-9326RF3 MINGW64 ~/alice_blockchain_testnet (main)
+$
