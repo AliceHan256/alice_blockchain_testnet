@@ -26,7 +26,7 @@ Now, let's run the testnet.
 First, navigate to the folder named alice_blockchain_testnet in your Git Bash or Terminal:
 cd ~/alice_blockchain_testnet
 
-Using the below code to initialize each code with the blockpoa66.json file.
+Using the below code to initialize each code with the blockpoa889.json file.
 ./geth --datadir node1 init ahblock2/blockpoa889.json
 ./geth --datadir node2 init ahblock2/blockpoa889.json
 
@@ -47,7 +47,7 @@ After connecting to the custome network in MyCrypto, select the "View & Send" op
 
 The above step bring you to import your keystore file from your node1. By clicking "Keystore file", it pops up another window. Click "Select Wallet File", you can find your keystore directory inside your node1 directory, select the file located there, enter the password shown as above when prompted and then click "Unlock". This will open your account wallet inside MyCrypto. Please see video1 in the Screenshot folder.
 
-In the "To Address" box, type node2's account address, which is 0x48a8921Ee8d56D04E368E1Bb08f3FB7b6cFd3DD3, then fill in an amount of ETH, 8888 ETH in this case, clicking "Send Transaction" then "Send" button in the pop-up window. In about 5 seconds, it will show "Successful" next to "Status" field. These steps can be seen in video2 located in the Screenshot folder.
+In the "To Address" box, type node2's account address, which is 0x18cB02Bae51fF0136e43Af33DddF66e766D32BF5, then fill in an amount of ETH, 8888 ETH in this case, clicking "Send Transaction" then "Send" button in the pop-up window. In about 5 seconds, it will show "Successful" next to "Status" field. These steps can be seen in video2 located in the Screenshot folder.
 
 
 
